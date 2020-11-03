@@ -90,3 +90,7 @@ img:hover{
 #work iframe{
     height: 500px;
 }
+
+.contact_1 h3{
+    display:inline;
+}
