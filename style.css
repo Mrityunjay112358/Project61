@@ -74,9 +74,7 @@ p {
 
 }
 
-#inspiration {
-    background: linear-gradient(#4bf542 0%, #18d0f5 100%)
-}
+
 
 #contact{
     background: linear-gradient(#de371e 0%, #f9e00b 100%);
@@ -116,4 +114,12 @@ img:hover {
 
 .movie_text{
     color:darksalmon;
+}
+
+.environment_li{
+    background-color:lawngreen;
+}
+
+#inspiration img{
+    width:150px;
 }
