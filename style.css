@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color:white;
+    color: white;
     text-shadow: 2px 2px black;
     font-size: 20px;
 }
@@ -22,7 +22,12 @@ p {
 }
 
 #bio {
-    background: linear-gradient(#4bf542 0%, #18d0f5 100%)
+    background: linear-gradient(#4bf542 0%, #18d0f5 100%);
+    width: auto;
+}
+
+#bio img {
+    width: 200px;
 }
 
 #work {
@@ -43,8 +48,8 @@ p {
     z-index: 10;
     cursor: pointer;
     position: fixed;
-    color:floralwhite;
-    background: linear-gradient(#34e00d 0%, #e07e0d 100%);  
+    color: floralwhite;
+    background: linear-gradient(#34e00d 0%, #e07e0d 100%);
 }
 
 .links {
@@ -55,7 +60,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
-    color:floralwhite;
+    color: floralwhite;
 }
 
 .links:hover {
@@ -69,28 +74,46 @@ p {
 
 }
 
-#inspiration{
-   background: linear-gradient(#4bf542 0%, #18d0f5 100%) 
+#inspiration {
+    background: linear-gradient(#4bf542 0%, #18d0f5 100%)
 }
 
 #contact{
- background: linear-gradient(#de371e 0%, #f9e00b 100%);  
+    background: linear-gradient(#de371e 0%, #f9e00b 100%);
 }
 
-img{
-    width:50%;
-    transition:transform .2s;
-    border:10px solid #AAAAAA;
+img {
+    width: 50%;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
 }
 
-img:hover{
+img:hover {
     transform: scale(1.2);
 }
 
-#work iframe{
+#work iframe {
     height: 500px;
 }
 
-.contact_1 h3{
-    display:inline;
+.contact_1 h3 {
+    display: inline;
+}
+
+
+#achievementsid{
+    padding-bottom:10px;
+}
+
+.movie_head{
+    font-size: 20px;
+    padding:6px 22px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    width:100%;
+    display: inline-block;
+}
+
+.movie_text{
+    color:darksalmon;
 }
